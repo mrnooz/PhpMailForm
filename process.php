@@ -78,8 +78,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $message = sanitizeInput($formData['message']);
         
         // Prepara l'email
-        $to = "info@habitatpsicologia.it";
-        $subject = "Messaggio da {$name} dal sito www.habitatpsicologia.it";
+        $to = "info@nomedeltuosito.it";
+        $subject = "Messaggio da {$name} dal sito www.nomedeltuosito.it";
         $messageBody = "{$name} ti ha scritto:\r\n\r\n{$message}";
         
         // Headers dell'email
